@@ -48,7 +48,7 @@ description: "Task list template for feature implementation"
 
 **Purpose**: Project initialization and basic structure
 
-- [ ] T001 Create project structure per implementation plan (e.g., using `create-react-app` or a similar tool)
+- [ ] T001 Create project structure per implementation plan (e.g., using `npm create vite@latest` or a similar tool)
 - [ ] T002 Initialize TypeScript project with React, Redux, and Tailwind CSS dependencies
 - [ ] T003 [P] Configure ESLint and Prettier for TypeScript and React
 

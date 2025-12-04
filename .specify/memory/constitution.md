@@ -2,18 +2,13 @@
 ---
 Sync Impact Report
 ---
-Version change: none → 1.0.0
+Version change: 1.0.0 → 1.1.0
 Modified principles:
-- [PRINCIPLE_1_NAME] → I. TypeScript First
-- [PRINCIPLE_2_NAME] → II. React for Components
-- [PRINCIPLE_3_NAME] → III. Redux for State Management
-- [PRINCIPLE_4_NAME] → IV. Tailwind CSS for Styling
-- [PRINCIPLE_5_NAME] → V. Test-First (NON-NEGOTIABLE)
+- Added: VI. Vite for Development and Builds
 Added sections: None
 Removed sections: None
 Templates requiring updates:
 - .specify/templates/plan-template.md (⚠ pending)
-- .specify/templates/spec-template.md (⚠ pending)
 - .specify/templates/tasks-template.md (⚠ pending)
 Follow-up TODOs: None
 -->
@@ -36,6 +31,9 @@ All styling MUST be implemented using Tailwind CSS. This utility-first CSS frame
 ### V. Test-First (NON-NEGOTIABLE)
 TDD is mandatory: Tests are written, user-approved, and failing before implementation begins. The Red-Green-Refactor cycle is strictly enforced.
 
+### VI. Vite for Development and Builds
+The web application MUST be developed and built using Vite. This ensures a fast development experience and optimized production builds.
+
 ## Additional Constraints
 
 No additional constraints at this time.
@@ -48,4 +46,4 @@ Code review is required for all pull requests. All tests must pass before mergin
 
 All PRs/reviews must verify compliance with the constitution. Complexity must be justified.
 
-**Version**: 1.0.0 | **Ratified**: 2025-12-04 | **Last Amended**: 2025-12-04
+**Version**: 1.1.0 | **Ratified**: 2025-12-04 | **Last Amended**: 2025-12-04
