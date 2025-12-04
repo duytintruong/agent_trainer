@@ -2,17 +2,17 @@
 ---
 Sync Impact Report
 ---
-Version change: 1.0.0 → 1.1.0
-Modified principles:
-- Added: VI. Vite for Development and Builds
-Added sections: None
+Version change: 1.1.0 → 1.2.0
+Modified principles: None
+Added sections: Application Purpose
 Removed sections: None
-Templates requiring updates:
-- .specify/templates/plan-template.md (⚠ pending)
-- .specify/templates/tasks-template.md (⚠ pending)
+Templates requiring updates: None
 Follow-up TODOs: None
 -->
 # Agent Trainer Constitution
+
+## Application Purpose
+This repository is used to build an app that helps new sales employees to practise role-play customer support through the UI by talking with an AI model developed by AWS called AWS Nova Sonic deployed in AWS Bedrock.
 
 ## Core Principles
 
@@ -46,4 +46,4 @@ Code review is required for all pull requests. All tests must pass before mergin
 
 All PRs/reviews must verify compliance with the constitution. Complexity must be justified.
 
-**Version**: 1.1.0 | **Ratified**: 2025-12-04 | **Last Amended**: 2025-12-04
+**Version**: 1.2.0 | **Ratified**: 2025-12-04 | **Last Amended**: 2025-12-04
