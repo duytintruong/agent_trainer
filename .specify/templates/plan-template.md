@@ -17,8 +17,8 @@
   the iteration process.
 -->
 
-**Language/Version**: [e.g., Python 3.11, Swift 5.9, Rust 1.75 or NEEDS CLARIFICATION]  
-**Primary Dependencies**: [e.g., FastAPI, UIKit, LLVM or NEEDS CLARIFICATION]  
+**Language/Version**: TypeScript
+**Primary Dependencies**: React, Redux, Tailwind CSS  
 **Storage**: [if applicable, e.g., PostgreSQL, CoreData, files or N/A]  
 **Testing**: [e.g., pytest, XCTest, cargo test or NEEDS CLARIFICATION]  
 **Target Platform**: [e.g., Linux server, iOS 15+, WASM or NEEDS CLARIFICATION]
@@ -31,7 +31,11 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+*   **I. TypeScript First**: Is all new code written in TypeScript?
+*   **II. React for Components**: Are all UI components built with React?
+*   **III. Redux for State Management**: Is application-level state managed with Redux?
+*   **IV. Tailwind CSS for Styling**: Is all styling implemented with Tailwind CSS?
+*   **V. Test-First (NON-NEGOTIABLE)**: Are tests written before implementation?
 
 ## Project Structure
 
