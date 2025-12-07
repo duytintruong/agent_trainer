@@ -18,7 +18,7 @@
 -->
 
 **Language/Version**: TypeScript
-**Primary Dependencies**: React, Redux, Tailwind CSS, Vite  
+**Primary Dependencies**: React, Redux, Tailwind CSS, Next.js  
 **Storage**: [if applicable, e.g., PostgreSQL, CoreData, files or N/A]  
 **Testing**: [e.g., pytest, XCTest, cargo test or NEEDS CLARIFICATION]  
 **Target Platform**: [e.g., Linux server, iOS 15+, WASM or NEEDS CLARIFICATION]
@@ -36,7 +36,7 @@
 *   **III. Redux for State Management**: Is application-level state managed with Redux?
 *   **IV. Tailwind CSS for Styling**: Is all styling implemented with Tailwind CSS?
 *   **V. Test-First (NON-NEGOTIABLE)**: Are tests written before implementation?
-*   **VI. Vite for Development and Builds**: Is the application developed and built with Vite?
+*   **VI. Next.js for Development and Builds**: Is the application developed and built with Next.js?
 
 ## Project Structure
 

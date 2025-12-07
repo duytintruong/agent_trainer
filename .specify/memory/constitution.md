@@ -31,8 +31,8 @@ All styling MUST be implemented using Tailwind CSS. This utility-first CSS frame
 ### V. Test-First (NON-NEGOTIABLE)
 TDD is mandatory: Tests are written, user-approved, and failing before implementation begins. The Red-Green-Refactor cycle is strictly enforced.
 
-### VI. Vite for Development and Builds
-The web application MUST be developed and built using Vite. This ensures a fast development experience and optimized production builds.
+### VI. Next.js for Development and Builds
+The web application MUST be developed and built using Next.js. This ensures a fast development experience and optimized production builds.
 
 ## Additional Constraints
 
@@ -46,4 +46,4 @@ Code review is required for all pull requests. All tests must pass before mergin
 
 All PRs/reviews must verify compliance with the constitution. Complexity must be justified.
 
-**Version**: 1.2.0 | **Ratified**: 2025-12-04 | **Last Amended**: 2025-12-04
+**Version**: 1.2.0 | **Ratified**: 2025-12-08 | **Last Amended**: 2025-12-08
