@@ -40,7 +40,7 @@ As a user, I want to start a voice conversation with the AWS Nova Sonic model us
 - **FR-006**: The system MUST play back the audio response received from the model to the user.
 - **FR-007**: The system MUST allow the user to manually end the conversation via an "End" button.
 - **FR-008**: The system MUST handle errors gracefully, including lack of microphone permission, network issues, or model failures, by providing informative feedback to the user.
-- **FR-009**: [NEEDS CLARIFICATION: Should a real-time transcript of the user's speech and the model's response be displayed in the UI?]
+- **FR-009**: The system will NOT display a real-time transcript of the conversation (as per Research decision to prioritize low-latency audio).
 
 ### Key Entities
 

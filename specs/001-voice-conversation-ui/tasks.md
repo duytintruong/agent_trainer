@@ -12,9 +12,9 @@ description: "Task list for feature 001-voice-conversation-ui"
 
 **Purpose**: Project initialization and basic structure
 
-- [ ] T001 Create project structure using `npx create-next-app@latest . --typescript --tailwind --eslint`
-- [ ] T002 Install dependencies (`ws`, `@aws-sdk/client-bedrock-runtime`, `@reduxjs/toolkit`, `react-redux`, `ts-node`) in `package.json`
-- [ ] T003 [P] Configure `tsconfig.json` and `package.json` scripts to support custom server (`ts-node src/server.ts`)
+- [x] T001 Create project structure using `npx create-next-app@latest . --typescript --tailwind --eslint`
+- [x] T002 Install dependencies (`ws`, `@aws-sdk/client-bedrock-runtime`, `@reduxjs/toolkit`, `react-redux`, `ts-node`) in `package.json`
+- [x] T003 [P] Configure `tsconfig.json` and `package.json` scripts to support custom server (`ts-node src/server.ts`)
 
 ---
 
@@ -24,7 +24,7 @@ description: "Task list for feature 001-voice-conversation-ui"
 
 - [ ] T004 [P] Setup Redux store in `src/store/store.ts` and hooks in `src/store/hooks.ts`
 - [ ] T005 [P] Create `conversation` slice with initial types in `src/store/conversationSlice.ts`
-- [ ] T006 Setup custom server scaffolding in `src/server.ts` (basic HTTP/WS setup)
+- [x] T006 Setup custom server scaffolding in `src/server.ts` (basic HTTP/WS setup)
 - [ ] T007 Create `src/lib/bedrock-stream.ts` scaffolding (types/interfaces)
 - [ ] T008 Create `src/lib/audio-stream.ts` scaffolding (types/interfaces)
 
