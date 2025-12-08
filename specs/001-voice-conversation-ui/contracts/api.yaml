@@ -1,0 +1,74 @@
+asyncapi: 2.0.0
+info:
+  title: Voice Conversation WebSocket API
+  version: 1.0.0
+channels:
+  /conversation:
+    publish:
+      message:
+        oneOf:
+          - $ref: '#/components/messages/AudioInput'
+          - $ref: '#/components/messages/EndSession'
+    subscribe:
+      message:
+        oneOf:
+          - $ref: '#/components/messages/AudioOutput'
+          - $ref: '#/components/messages/TranscriptionEvent'
+          - $ref: '#/components/messages/ErrorEvent'
+
+components:
+  messages:
+    AudioInput:
+      payload:
+        type: object
+        properties:
+          type:
+            type: string
+            enum: ['audio']
+          data:
+            type: string
+            format: binary
+            description: Base64 or binary audio chunk (PCM/Opus)
+
+    AudioOutput:
+      payload:
+        type: object
+        properties:
+          type:
+            type: string
+            enum: ['audio']
+          data:
+            type: string
+            format: binary
+            description: Audio chunk from model
+
+    EndSession:
+      payload:
+        type: object
+        properties:
+          type:
+            type: string
+            enum: ['end']
+
+    TranscriptionEvent:
+      payload:
+        type: object
+        properties:
+          type:
+            type: string
+            enum: ['transcription']
+          text:
+            type: string
+          source:
+            type: string
+            enum: ['user', 'model']
+
+    ErrorEvent:
+      payload:
+        type: object
+        properties:
+          type:
+            type: string
+            enum: ['error']
+          message:
+            type: string
