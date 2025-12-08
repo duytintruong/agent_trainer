@@ -22,11 +22,11 @@ description: "Task list for feature 001-voice-conversation-ui"
 
 **Purpose**: Core infrastructure that MUST be complete before ANY user story can be implemented
 
-- [ ] T004 [P] Setup Redux store in `src/store/store.ts` and hooks in `src/store/hooks.ts`
-- [ ] T005 [P] Create `conversation` slice with initial types in `src/store/conversationSlice.ts`
+- [x] T004 [P] Setup Redux store in `src/store/store.ts` and hooks in `src/store/hooks.ts`
+- [x] T005 [P] Create `conversation` slice with initial types in `src/store/conversationSlice.ts`
 - [x] T006 Setup custom server scaffolding in `src/server.ts` (basic HTTP/WS setup)
-- [ ] T007 Create `src/lib/bedrock-stream.ts` scaffolding (types/interfaces)
-- [ ] T008 Create `src/lib/audio-stream.ts` scaffolding (types/interfaces)
+- [x] T007 Create `src/lib/bedrock-stream.ts` scaffolding (types/interfaces)
+- [x] T008 Create `src/lib/audio-stream.ts` scaffolding (types/interfaces)
 
 **Checkpoint**: Foundation ready - user story implementation can now begin
 
